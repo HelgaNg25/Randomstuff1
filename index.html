@@ -19,8 +19,8 @@
             border: 5px solid #007bff;
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            position: relative; /* Để đặt canvas ở vị trí tuyệt đối */
-            overflow: hidden; /* Ẩn các phần tử ra ngoài */
+            position: relative; 
+            overflow: hidden;
         }
 
         h1 {
@@ -47,11 +47,11 @@
         }
 
         .custom-button i {
-            margin-right: 8px; /* Khoảng cách giữa biểu tượng và văn bản */
+            margin-right: 8px; 
         }
 
         .message {
-            display: none; /* Ẩn thông điệp ban đầu */
+            display: none; 
             margin-top: 20px;
             font-size: 18px;
             color: #333;
@@ -68,7 +68,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            pointer-events: none; /* Không cho phép tương tác với canvas */
+            pointer-events: none; 
         }
     </style>
 </head>
@@ -88,8 +88,8 @@
 
     <script>
         function handleClick() {
-            document.getElementById('message').style.display = 'block'; // Hiển thị thông điệp
-            createFireworks(); // Tạo hiệu ứng pháo hoa
+            document.getElementById('message').style.display = 'block'; 
+            createFireworks(); 
         }
 
         function createFireworks() {
